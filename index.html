@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class = "bg-container">
+        <div class = "main-container">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/031/697/249/small_2x/illustration-of-finger-hand-cursor-icon-click-symbol-png.png" class = "image"/>
+            <h1 class = "title">Click<span class = "title-part"> Counter</span></h1>
+            <p class = "heading-para">Buttons click count karo!</p>
+            <p class = "count" id = "counting">0</p>
+            <button class = "minusBtn" id = "minusbutton" onclick = "minusbtn()">-</button>
+            <button class = "plusBtn" id = "plusbutton" onclick = "plusbtn()">+</button>
+            <button id="resetbutton" class = "resetBtn" onclick="resetbtn()">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+        </div>
+    </div>
+    
+    <script src = "script.js"></script>
+</body>
+</html>

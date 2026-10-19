@@ -1,0 +1,135 @@
+.bg-container{
+    height: 97vh;
+    width: 99vw;
+    background-image: url("https://t4.ftcdn.net/jpg/06/58/49/37/360_F_658493738_vAId7NDAn23AeHO0f1hmL6G05CtWnzh1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    
+}
+.image{
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: rgb(243, 241, 237);
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.title-part{
+    color: blue;
+}
+
+.heading-para{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(99, 105, 110);
+}
+
+.count{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color:blue ;
+    font-weight: bold;
+    height: 80px;
+    width: 330px;
+    background-color: rgb(217, 223, 228);
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 38px;
+    margin-top: 10px;
+    padding-top: 9px;
+}
+
+.minusBtn{
+    height: 50px;
+    width: 80px;
+    border-width: 0px;
+    background-color: rgb(231, 71, 71);
+    border-radius: 15px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.minusBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.4);
+}
+
+.minusBtn:active {
+    transform: scale(0.96);
+}
+
+.plusBtn{
+    height: 50px;
+    width: 80px;
+    border-width: 0px;
+    background-color: rgb(40, 209, 90);
+    border-radius: 15px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.plusBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.4);
+}
+
+.plusBtn:active {
+    transform: scale(0.96);
+}
+
+.resetBtn{
+    width: 100%;
+    padding: 15px 20px;
+
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+    color: white;
+
+    border: none;
+    border-radius: 15px;
+
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+    cursor: pointer;
+
+    box-shadow: 0 6px 15px rgba(79, 70, 229, 0.3);
+
+    transition: all 0.3s ease;
+}
+
+.resetBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.4);
+}
+
+.resetBtn:active {
+    transform: scale(0.96);
+}
